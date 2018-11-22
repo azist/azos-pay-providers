@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azos.PayPal", "Azos.PayPal\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azos.Stripe", "Azos.Stripe\Azos.Stripe.csproj", "{72986394-ED7F-46B3-9303-5F88873C43E8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azos.Tests.Pay", "testing\Azos.Tests.Pay\Azos.Tests.Pay.csproj", "{6E8FEE96-180E-4EB1-B2A1-C91A76337564}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,9 +31,16 @@ Global
 		{72986394-ED7F-46B3-9303-5F88873C43E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72986394-ED7F-46B3-9303-5F88873C43E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72986394-ED7F-46B3-9303-5F88873C43E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E8FEE96-180E-4EB1-B2A1-C91A76337564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8FEE96-180E-4EB1-B2A1-C91A76337564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8FEE96-180E-4EB1-B2A1-C91A76337564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8FEE96-180E-4EB1-B2A1-C91A76337564}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E8FEE96-180E-4EB1-B2A1-C91A76337564} = {0FC66524-0EE2-410C-B971-97170166D2D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EF590C-FE75-45E7-B941-B225EF484F5F}
